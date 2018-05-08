@@ -23,7 +23,7 @@
 						<div class="card-body">
 							<h4 class="card-title">Search Docs</h4>
 							<p class="card-text">Search for saved Files, PhotoCopies of the document you have stored securely.</p>
-							<a class="btn btn-primary text-white">Search</a>
+							<a href="" class="btn btn-primary text-white">Search</a>
 						</div>
 				</div>
 				<div class="card col-sm-12 col-md-4">
