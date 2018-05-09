@@ -21,6 +21,7 @@ class CreateFilesTable extends Migration
             $table->mediumtext('description');
             $table->string('category');
             $table->integer('semester');
+            $table->string('title');
         });
     }
 

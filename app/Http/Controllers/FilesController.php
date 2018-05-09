@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\File;
 
 class FilesController extends Controller
 {
@@ -14,6 +15,8 @@ class FilesController extends Controller
     public function index()
     {
         //
+        $files = File::orderBy('created_at', 'desc')->paginate(6);
+        return view('files')->with('files', $files);
     }
 
     /**
@@ -35,8 +38,17 @@ class FilesController extends Controller
     public function store(Request $request)
     {
         //
+        $this->validate($request, [
+            'title' => 'required', 
+            'filename' => 'required'
+
+        ]);
     }
 
+    public function search(Request $request)
+    {
+        //
+    }
     /**
      * Display the specified resource.
      *
@@ -46,6 +58,8 @@ class FilesController extends Controller
     public function show($id)
     {
         //
+        $file = File::find($id);
+        return view('show')->with('file', $file);
     }
 
     /**
