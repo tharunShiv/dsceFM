@@ -18,7 +18,7 @@
                 </div>
                 <div class="form-group">
                     {{Form::label('category', 'Category ')}}
-                    {{Form::select('type', ['0' => '--Select--', 'document' => 'Document', 'image' => 'Image', 'other' => 'Others'])}}
+                    {{Form::select('category', ['0' => '--Select--', 'document' => 'Document', 'image' => 'Image', 'other' => 'Others'])}}
                     {{Form::label('semester', 'Semester')}}
                     {{Form::select('semester', ['0' => '--Select--', '1' => '1', '2' => '2', '3' => '3', '4' => '4', '5' => '5', '6' => '6', '7' => '7', '8' => '8'])}}
                 </div>

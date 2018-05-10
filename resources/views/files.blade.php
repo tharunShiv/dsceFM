@@ -32,6 +32,7 @@
                         <p> <small>Tags: {{$f->tags}}</small></p>
                         <small>Uploaded on {{$f->created_at}}</small>
                     </div>
+                    <br>
                   @endforeach
                   {{$files->links()}}
                 @else

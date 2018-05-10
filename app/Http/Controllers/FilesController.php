@@ -40,9 +40,32 @@ class FilesController extends Controller
         //
         $this->validate($request, [
             'title' => 'required', 
-            'filename' => 'required'
-
+            'filename' => 'required',
+            'tags' => 'required',
+            'filename' => 'required|mimes:jpeg,png,jpg,zip,pdf,docx,doc,rar,pptx,sldx,xlsx,mp4,mp3,flv,avi,csv,txt,text|max:200000',
+            'description' => 'nullable'
         ]);
+
+        $file = new File;
+        $file->title = $request->input('title');
+        $file->category = $request->input('category');
+        $file->semester = $request->input('semester');
+        $file->tags = $request->input('tags');
+        $file->description = $request->input('description');
+        
+        $filenameWithExt = $request->file('filename')->getClientOriginalName();
+            // Get just filename
+            $filename1 = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            // Get just ext
+            $extension = $request->file('filename')->getClientOriginalExtension();
+            // Filename to store
+            $fileNameToStore= $filename1.'_'.time().'.'.$extension;
+            // Upload Image
+            $path = $request->file('filename')->storeAs('public/files', $fileNameToStore);
+
+        $file->filename =  $fileNameToStore;
+        $file->save();
+        return redirect('/files')->with('success', 'File Uploaded Successfully!');
     }
 
     public function search(Request $request)

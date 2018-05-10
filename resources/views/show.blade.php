@@ -18,7 +18,32 @@
                         <p>{{$file->description}}</p>
                     </div>
                     <br>
-                    <p>Tags: </p><p>{{$file->tags}}</p>
+                <a href="/storage/files/{{$file->filename}}">Click here to View in a new tab/Download</a><br>
+                <?php 
+                
+                $extension = pathinfo($file->filename, PATHINFO_EXTENSION); 
+               
+                ?>
+
+                
+                <?php 
+                    if($extension == 'pdf'){
+                ?>
+                    <iframe src = "/ViewerJS/#../storage/files/{{$file->filename}}" width='724' height='1024' allowfullscreen webkitallowfullscreen></iframe> 
+                    <br>
+                <?php
+                    } 
+                ?>
+
+                <?php 
+                if($extension == 'jpg' or $extension == 'jpeg' or $extension == 'png'){
+                ?>
+                    <img src="/storage/files/{{$file->filename}}" style="max-width:1080px"/>
+                <?php
+                } 
+                ?>
+
+                    <p>Tags: {{$file->tags}}</p>
 
             </div>
         </div>
