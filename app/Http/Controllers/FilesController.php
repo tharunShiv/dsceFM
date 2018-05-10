@@ -12,11 +12,26 @@ class FilesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+     
     public function index()
     {
         //
         $files = File::orderBy('created_at', 'desc')->paginate(6);
         return view('files')->with('files', $files);
+    }
+
+    public function search(Request $request)
+    {
+        //
+       
+        $key = $request->input('key');
+        $results = File::where('title','LIKE','%'.$key.'%')->orWhere('tags','LIKE','%'.$key.'%')->orWhere('description','LIKE','%'.$key.'%')->orWhere('category','LIKE','%'.$key.'%')->orWhere('semester','LIKE','%'.$key.'%')->orWhere('filename','LIKE','%'.$key.'%')->orderBy('created_at', 'desc')->paginate(3);
+        return view('results')->with('results', $results);
     }
 
     /**
@@ -68,10 +83,7 @@ class FilesController extends Controller
         return redirect('/files')->with('success', 'File Uploaded Successfully!');
     }
 
-    public function search(Request $request)
-    {
-        //
-    }
+    
     /**
      * Display the specified resource.
      *

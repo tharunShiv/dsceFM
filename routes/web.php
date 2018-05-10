@@ -19,5 +19,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('files', 'FilesController');
 
-Route::post('/search', 'FilesController@search');
+Route::get('/search', 'FilesController@search');
 
+Route::get('/results', function(){
+    return view('results');
+});

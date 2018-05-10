@@ -9,10 +9,10 @@
             <p><a href="/files">Search File</a></p>
         </div>
         <div class="col-md-8">
-                {!! Form::open(['action' => 'FilesController@search', 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
+                {!! Form::open(['action' => 'FilesController@search', 'method' => 'GET', 'enctype' => 'multipart/form-data']) !!}
                 <div class="form-group">
-                    {{Form::label('search', 'Search')}}
-                    {{Form::text('search', '', ['class'=>'form-control', 'placeholder'=>'Search for files ( type anything related to it )', 'required'])}}
+                    {{Form::label('key', 'Search')}}
+                    {{Form::text('key', '', ['class'=>'form-control', 'placeholder'=>'Search for files ( type anything related to it )', 'required'])}}
                 </div>
                 {{Form::submit('Search', ['class'=>'btn btn-primary'])}}
             

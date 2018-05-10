@@ -15,7 +15,7 @@
 						<div class="card-body">
 							<h4 class="card-title">Upload Document</h4>
 							<p class="card-text">Upload files, PhotoCopies of the document you want to store securely.</p>
-							<a class="btn btn-primary text-white">Upload</a>
+							<a href="/home" class="btn btn-primary text-white">Upload</a>
 						</div>
 				</div>
 				<div class="card col-sm-12 col-md-4">
@@ -23,7 +23,7 @@
 						<div class="card-body">
 							<h4 class="card-title">Search Docs</h4>
 							<p class="card-text">Search for saved Files, PhotoCopies of the document you have stored securely.</p>
-							<a href="" class="btn btn-primary text-white">Search</a>
+							<a href="/files" class="btn btn-primary text-white">Search</a>
 						</div>
 				</div>
 				<div class="card col-sm-12 col-md-4">
