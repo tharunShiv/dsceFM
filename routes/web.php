@@ -24,3 +24,7 @@ Route::get('/search', 'FilesController@search');
 Route::get('/results', function(){
     return view('results');
 });
+
+Route::get('/about', function(){
+    return view('about');
+});
