@@ -10,16 +10,17 @@
             <img src="images/tharun.jpeg" class="img-rounded img-responsive" width="200px;" style="margin-left:20%"/>
         </div>
         <div class="col-sm-12 col-md-4">
-                <div class="programmer">
-<pre>
-<b>Tharun</b> 
-Student at DSCE, Programming YouTuber and Blogger,
-Web and App Developer,
-Data Scientist
-Contact: <i>asktharun@gmail.com</i>
-YouTube : <a href="https://www.youtube.com/channel/UCDvWreVvvAwyoVHXG7QnqRg">Click here to view the channel</a>
-Blog : <a href="https://tharunshiv.ml">tharunshiv.ml</a> 
-</pre>
+                <div class="programmer" style="border-left:5px dashed #343a40;border-radius:10%;">
+    <pre>
+    <b>Tharun</b> 
+    Student at DSCE, 
+    Programming YouTuber and Blogger,
+    Web and App Developer,
+    Data Scientist
+    Contact: <i>asktharun@gmail.com</i>
+    YouTube : <a href="https://www.youtube.com/channel/UCDvWreVvvAwyoVHXG7QnqRg">Click here to view the channel</a>
+    Blog : <a href="https://tharunshiv.ml">tharunshiv.ml</a> 
+    </pre>
                 </div>
         </div>
     </div>
