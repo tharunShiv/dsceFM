@@ -24,6 +24,17 @@
                 </div>
         </div>
     </div>
+    <hr>
+    <br/>
+    
+    <div>
+        <h3>What is DSCE File Manager?</h3>
+        <br/>
+        <div>
+            <p>It is a Web Application built with great Security and efficiency in mind. It provides facilities to Upload, Store, Organize and Search for Files.</p>
+            
+        </div>
+    </div>
     
 </div>
 @endsection
