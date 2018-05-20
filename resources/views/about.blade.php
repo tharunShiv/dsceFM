@@ -4,7 +4,7 @@
 
 <div class="container">
     <h2>About DSCE File Manager</h2><br>
-    <h3>Created By</h3>
+    <h3>Created By</h3><br>
     <div class="row">
         <div class="col-sm-12 col-md-4">
             <img src="images/tharun.jpeg" class="" width="200px;" style="margin-left:20%;border:1px solid #343a40;border-radius:5%;"/>
@@ -34,6 +34,11 @@
             <p>It is a Web Application built with great Security and efficiency in mind. It provides facilities to Upload, Store, Organize and Search for Files.</p>
             
         </div>
+    </div>
+<hr><br>
+    <div>
+        <h3>Found bugs? Need help?</h3><br>
+        <p><b>Contact the Developer</b><br> Drop an email to <i>asktharun@gmail.com</i></p>
     </div>
     
 </div>
