@@ -18,9 +18,9 @@
     Web and App Developer,
     Data Scientist
     Contact: <i>asktharun@gmail.com</i>
-    LinkedIn : <a href="https://www.linkedin.com/in/tharunshiv">Click here to view my Profile</a>
-    YouTube : <a href="https://www.youtube.com/channel/UCDvWreVvvAwyoVHXG7QnqRg">Click here to view the channel</a>
-    Blog : <a href="https://tharunshiv.ml">tharunshiv.ml</a> 
+    <i class="fa fa-linkedin-square" style="color:#0077B5"></i> LinkedIn : <a href="https://www.linkedin.com/in/tharunshiv">Click here to view my Profile</a>
+    <i class="fa fa-youtube-play" style="color:red"></i> YouTube : <a href="https://www.youtube.com/channel/UCDvWreVvvAwyoVHXG7QnqRg">Click here to view the channel</a>
+    <i class="fa fa-wordpress" style="color:#0085be"></i> Blog : <a href="https://tharunshiv.ml">tharunshiv.ml</a> 
     </pre>
                 </div>
         </div>
@@ -29,7 +29,7 @@
     <br/>
     
     <div>
-        <h3>What is DSCE File Manager?</h3>
+        <h3>What is DSCE File Manager? </h3>
         <br/>
         <div>
             <p>It is a Web Application built with great Security and efficiency in mind. It provides facilities to Upload, Store, Organize and Search for Files.</p>
