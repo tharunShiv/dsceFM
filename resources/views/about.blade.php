@@ -18,6 +18,7 @@
     Web and App Developer,
     Data Scientist
     Contact: <i>asktharun@gmail.com</i>
+    LinkedIn : <a href="https://www.linkedin.com/in/tharunshiv">Click here to view my Profile</a>
     YouTube : <a href="https://www.youtube.com/channel/UCDvWreVvvAwyoVHXG7QnqRg">Click here to view the channel</a>
     Blog : <a href="https://tharunshiv.ml">tharunshiv.ml</a> 
     </pre>
@@ -38,7 +39,7 @@
 <hr><br>
     <div>
         <h3>Found bugs? Need help?</h3><br>
-        <p><b>Contact the Developer</b><br> Drop an email to <i>asktharun@gmail.com</i></p>
+        <p><b>Contact the Developer</b><br> Drop an email to <a href="mailto:asktharun@gmail.com"><i>asktharun@gmail.com</i></a></p>
     </div>
     
 </div>
