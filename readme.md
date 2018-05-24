@@ -1,3 +1,14 @@
+## About this project
+It provides a highly secure and safe way to store the docs and files. The users would be able to upload the files, search for it when needed.
+
+## How to Install this project?
+Its a Laravel Project.
+
+1. Download/Clone this repository
+2. Download the XAMPP
+
+more coming up soon...
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
