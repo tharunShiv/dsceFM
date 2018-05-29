@@ -6,6 +6,24 @@ Its a Laravel Project.
 
 1. Download/Clone this repository
 2. Download the XAMPP
+3. Go to xampp folder, `xampp/apache/conf/extra/httpd-vhosts.conf`
+4. Open it as Administrator
+5. Add this <br/>
+   '`<VirtualHost *:80> `<br/>`
+    DocumentRoot "C:/xampp/htdocs/DSCE-Calci/public" `<br>`
+    ServerName dsceapp.dev `<br>`
+   </VirtualHost>`'<br>
+6. Save and Close
+7. Open Notepad as <b>admin</b>
+   Now from Notepad, hit on `Open` and navigate to `C:\Windows\System32\drivers\etc\hosts`
+8. paste this in the last
+   `
+   127.0.0.1 dscefm.dev
+   `
+9. Now paste the dowloaded and extracted dsceFM folder into htdocs folder of the xampp folder.
+
+### We're almost done
+
 
 more coming up soon...
 
