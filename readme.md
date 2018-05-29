@@ -44,9 +44,12 @@ php artisan migrate
 `
 7. Open Your Browser - Mostly Internet Explorer (because of the https issue) - Goto dscefm.dev
 
-# You're done
+## You're done
 
-# The technology used:
+## Remember to Pull Requests, report issues, contact me for further clarifications.
+### Programming is the solution
+
+## The technology used:
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
