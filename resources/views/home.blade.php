@@ -17,10 +17,10 @@
                     {{Form::text('title', '', ['class'=>'form-control', 'placeholder'=>'Title', 'required' => 'required'])}}
                 </div>
                 <div class="form-group">
-                    {{Form::label('category', 'Category ')}}
-                    {{Form::select('category', ['0' => '--Select--', 'document' => 'Document', 'image' => 'Image', 'other' => 'Others'])}}
-                    {{Form::label('semester', 'Semester')}}
-                    {{Form::select('semester', ['0' => '--Select--', '1' => '1', '2' => '2', '3' => '3', '4' => '4', '5' => '5', '6' => '6', '7' => '7', '8' => '8'])}}
+                    {{Form::label('fileFormat', 'File Format ')}}
+                    {{Form::select('fileFormat', ['0' => '--Select--', 'document' => 'Document', 'image' => 'Image', 'other' => 'Others'])}}
+                    {{Form::label('category', 'Category')}}
+                    {{Form::select('category', ['others' => '--Select--', 'nba' => 'NBA', 'faculty' => 'Faculty', 'students' => 'Students', 'kea' => 'KEA'])}}
                 </div>
                 <div class="form-group">
                         {{Form::label('tags', 'Tags')}}
