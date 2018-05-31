@@ -18,10 +18,11 @@ class CreateFilesTable extends Migration
             $table->timestamps();
             $table->string('filename');
             $table->string('tags');
-            $table->mediumtext('description');
+            $table->mediumtext('description')->nullable();
             $table->string('category');
-            $table->integer('semester');
+            $table->string('fileFormat');
             $table->string('title');
+            $table->integer('access');
         });
     }
 

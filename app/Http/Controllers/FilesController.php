@@ -67,6 +67,7 @@ class FilesController extends Controller
         $file->fileFormat = $request->input('fileFormat');
         $file->tags = $request->input('tags');
         $file->description = $request->input('description');
+        $file->access = $request->input('access');
         
         $filenameWithExt = $request->file('filename')->getClientOriginalName();
             // Get just filename

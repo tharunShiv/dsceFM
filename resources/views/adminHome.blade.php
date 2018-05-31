@@ -7,7 +7,11 @@
             <h3>Navigate</h3>
             <hr width:80%>
             <p><a href="/home">Upload File</a></p>
-            <p><a href="/files">Search File</a></p>
+            <p><a href="/files">Search Regular File</a></p>
+            <p><a href="/Pfiles">Search for Preveliged Files</a></p>
+            <p><a href="/Hfiles">Search for HOD Only Files</a></p>
+            <p><a href="/addPM">Add/Remove Preveliged Members</a></p>
+            <p><a href="/addHOD">Add HOD</a></p>
         </div>
         <div class="col-md-8">
             <h3>Upload File</h3>

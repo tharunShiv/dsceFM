@@ -28,3 +28,7 @@ Route::get('/results', function(){
 Route::get('/about', function(){
     return view('about');
 });
+
+Route::get('password/reset/{token?}', 'Auth\ForgotPasswordController@showResetForm');
+Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail');
+Route::post('password/reset', 'Auth\ResetPasswordController@reset');

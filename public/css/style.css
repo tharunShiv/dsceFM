@@ -9,3 +9,8 @@
 .sidebar a:hover {
     color:aqua;
 }
+
+.container {
+    margin-top:10px;
+    margin-bottom:20px;
+}
