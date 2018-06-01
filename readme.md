@@ -10,8 +10,8 @@ Its a Laravel Project.
 4. Open it as Administrator
 5. Add this <br/>
    '`<VirtualHost *:80> `<br/>`
-    DocumentRoot "C:/xampp/htdocs/DSCE-Calci/public" `<br>`
-    ServerName dsceapp.dev `<br>`
+    DocumentRoot "C:/xampp/htdocs/dsceFM/public" `<br>`
+    ServerName dscefm.dev `<br>`
    </VirtualHost>`'<br>
 6. Save and Close
 7. Open Notepad as <b>admin</b>
